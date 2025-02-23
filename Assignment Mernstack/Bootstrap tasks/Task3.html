@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 03</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar {
+            border-bottom: 1px solid #eee;
+            padding: 1rem 0;
+        }
+
+        .navbar-brand {
+            font-weight: 500;
+        }
+
+        .pricing-header {
+            text-align: center;
+            padding: 3rem 0;
+        }
+
+        .pricing-description {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            color: #6c757d;
+        }
+
+        .pricing-card {
+            border: 1px solid #dee2e6;
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            text-align: center;
+            height: 100%;
+        }
+
+        .price {
+            font-size: 2.5rem;
+            font-weight: 500;
+        }
+
+        .price-period {
+            color: #6c757d;
+            font-weight: normal;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            margin: 2rem 0;
+            color: #6c757d;
+        }
+
+        .feature-list li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer {
+            margin-top: 5rem;
+            padding: 3rem 0;
+            background-color: #f8f9fa;
+        }
+
+        .footer-heading {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+
+        .footer-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-list li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-list a {
+            color: #6c757d;
+            text-decoration: none;
+        }
+
+        .footer-list a:hover {
+            color: #0d6efd;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#">Company name</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Enterprise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-outline-primary ms-2" href="#">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Pricing Header -->
+    <div class="pricing-header">
+        <div class="container">
+            <h1 class="display-4 mb-4">Pricing</h1>
+            <p class="pricing-description">
+                Quickly build an effective pricing table for your potential customers with this
+                Bootstrap example. It's built with default Bootstrap components and utilities
+                with little customization.
+            </p>
+        </div>
+    </div>
+
+    <!-- Pricing Cards -->
+    <div class="container mb-5">
+        <div class="row g-4">
+            <!-- Free Tier -->
+            <div class="col-md-4">
+                <div class="pricing-card">
+                    <h5 class="mb-4">Free</h5>
+                    <h2 class="price">$0 <span class="price-period">/ mo</span></h2>
+                    <ul class="feature-list">
+                        <li>10 users included</li>
+                        <li>2 GB of storage</li>
+                        <li>Email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <button class="btn btn-outline-primary w-100">Sign up for free</button>
+                </div>
+            </div>
+
+            <!-- Pro Tier -->
+            <div class="col-md-4">
+                <div class="pricing-card">
+                    <h5 class="mb-4">Pro</h5>
+                    <h2 class="price">$15 <span class="price-period">/ mo</span></h2>
+                    <ul class="feature-list">
+                        <li>20 users included</li>
+                        <li>10 GB of storage</li>
+                        <li>Priority email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <button class="btn btn-primary w-100">Get started</button>
+                </div>
+            </div>
+
+            <!-- Enterprise Tier -->
+            <div class="col-md-4">
+                <div class="pricing-card">
+                    <h5 class="mb-4">Enterprise</h5>
+                    <h2 class="price">$29 <span class="price-period">/ mo</span></h2>
+                    <ul class="feature-list">
+                        <li>30 users included</li>
+                        <li>15 GB of storage</li>
+                        <li>Phone and email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <button class="btn btn-primary w-100">Contact us</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <div class="footer-brand mb-2">© 2024</div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="footer-heading">Features</h5>
+                    <ul class="footer-list">
+                        <li><a href="#">Cool stuff</a></li>
+                        <li><a href="#">Random feature</a></li>
+                        <li><a href="#">Team feature</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="footer-heading">Resources</h5>
+                    <ul class="footer-list">
+                        <li><a href="#">Resource</a></li>
+                        <li><a href="#">Resource name</a></li>
+                        <li><a href="#">Another resource</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5 class="footer-heading">About</h5>
+                    <ul class="footer-list">
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Locations</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
