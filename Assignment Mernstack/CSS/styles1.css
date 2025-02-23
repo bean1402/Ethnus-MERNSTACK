@@ -1,0 +1,106 @@
+body {
+     font-family: Arial, sans-serif;
+     margin: 40px;
+ }
+ 
+ /* Table styling */
+ table {
+     width: 100%;
+     border-collapse: separate;
+     border-spacing: 0;
+     border: 3px solid #008080;
+     border-radius: 10px;
+     overflow: hidden;
+ }
+ 
+ th, td {
+     padding: 8px;
+     text-align: center;
+     background-color: #a8e6e6;
+     border: 1px solid #008080;
+ }
+ 
+ th {
+     font-weight: bold;
+     font-size: 18px;
+ }
+ 
+ tr:last-child td {
+     border-bottom: none;
+ }
+ 
+ th:first-child, td:first-child {
+     border-left: none;
+ }
+ 
+ th:last-child, td:last-child {
+     border-right: none;
+ }
+ 
+ th {
+     border-top: none;
+ }
+ 
+ /* Double-border effect */
+ table {
+     box-shadow: 0 0 0 3px #008080;
+ }
+ 
+ /* Shapes container */
+ .shapes-container {
+     margin-top: 50px;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: 20px;
+     max-width: 600px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ /* Rectangle shape */
+ .rectangle {
+     height: 60px;
+     border: 2px solid #8cb82b;
+     border-radius: 10px;
+ }
+ 
+ /* Oval shape */
+ .oval {
+     height: 60px;
+     border: 2px solid #8cb82b;
+     border-radius: 50%;
+ }
+ 
+ /* Mountain decoration */
+ .mountain-decoration {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 200px;
+     height: 100px;
+     z-index: -1;
+ }
+ 
+ .mountain {
+     position: absolute;
+     bottom: 0;
+     width: 0;
+     height: 0;
+     border-left: 50px solid transparent;
+     border-right: 50px solid transparent;
+ }
+ 
+ .mountain-1 {
+     left: 0;
+     border-bottom: 80px solid rgba(0, 128, 0, 0.5);
+ }
+ 
+ .mountain-2 {
+     left: 40px;
+     border-bottom: 100px solid rgba(0, 128, 0, 0.3);
+ }
+ 
+ .mountain-3 {
+     left: 90px;
+     border-bottom: 60px solid rgba(0, 128, 0, 0.2);
+ }
